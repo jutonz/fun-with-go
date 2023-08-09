@@ -21,7 +21,6 @@ func loadEnv() {
 	}
 }
 
-
 func main() {
 	loadEnv()
 
