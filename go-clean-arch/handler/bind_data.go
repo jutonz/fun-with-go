@@ -32,7 +32,6 @@ func bindData(c *gin.Context, req interface{}) bool {
 			}
 
 			error := apperrors.NewBadRequest()
-
 			c.JSON(error.Status, gin.H{
 				"error":       error,
 				"invalidArgs": invalidArgs,
